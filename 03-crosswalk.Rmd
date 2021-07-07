@@ -36,7 +36,7 @@ We also simulate the original dataset containing observations to be adjusted (`d
 
 ```{r message = FALSE}
 # library(crosswalk, lib.loc = "/ihme/code/mscm/R/packages/") # for R version 3
-detach(package:mrbrt002)
+# detach(package:mrbrt002)
 library(crosswalk002, lib.loc = "/ihme/code/mscm/Rv4/packages/") # for R version 4
 library(dplyr)
 
