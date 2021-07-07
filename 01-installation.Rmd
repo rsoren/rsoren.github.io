@@ -1,0 +1,15 @@
+# Quick start {#quickstart}
+
+R packages are installed on the IHME cluster. 
+
+When using R version 3, load packages like this:
+
+- `library(mrbrt001, lib.loc = "/ihme/code/mscm/R/packages/)` 
+- `library(crosswalk, lib.loc = "/ihme/code/mscm/R/packages/)`
+
+When using R version 4, load packages like this:
+
+- `library(mrbrt002, lib.loc = "/ihme/code/mscm/Rv4/packages/)`
+- `library(crosswalk002, lib.loc = "/ihme/code/mscm/Rv4/packages/)`
+
+To run MR-BRT locally in a Docker container, follow the installation instructions here: https://github.com/ihmeuw-msca/mrtoolr.
